@@ -11,11 +11,17 @@
 	-moz-user-select: none;
 	-o-user-select: none;
 	user-select: none;
+	//background-image: url('2.png');
 }
 .ui-widget-header p, .ui-widget-content p {
 	margin: 0; 
 }
-#snaptarget { 
+#sectionId { 
 	width:250px; 
 	height: 250px; 
+}
+p{
+
+    //color: rgb(74, 6, 202);
+ //   font-family: cursive;
 }
