@@ -1,0 +1,21 @@
+.draggable { 
+	border-radius: 10px;
+	background: #73AD21;
+	width: 70px; 
+	height: 70px;  
+	float: left;
+	font-size: 5em;
+	text-align: center;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.ui-widget-header p, .ui-widget-content p {
+	margin: 0; 
+}
+#snaptarget { 
+	width:250px; 
+	height: 250px; 
+}
