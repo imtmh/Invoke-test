@@ -1,24 +1,19 @@
 <html>
-	<head>
-	<script type="text/javascript">
-	<!--
-	function Redirect() {
-		window.location="1.html";
-	}
-	var i=5;
-	function callDocWrite(){
-		document.getElementById('msg').innerHTML = --i;
-		//i--;
-		if(i===0)
-			Redirect();
-	}
-	//function invokeTimer(){
-		setInterval('callDocWrite()', 1000);
-	//}
-	//invokeTimer();
-  </script>
-  </head>
-  <body>
-  You will be redirected to number puzzle page in <div id="msg">5</div> seconds.
-  </body>
+    <head>
+        <script type="text/javascript">
+            function Redirect() {
+                window.location="1.html";
+            }
+            var i=5;
+            function callDocWrite() {
+                document.getElementById('msg').innerHTML = --i;
+                if(i===0)
+                    Redirect();
+            }
+            setInterval('callDocWrite()', 1000);
+        </script>
+    </head>
+    <body>
+        You will be redirected to number puzzle page in <div id="msg">5</div> seconds.
+    </body>
 </html>
